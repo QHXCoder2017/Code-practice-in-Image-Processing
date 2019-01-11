@@ -4,6 +4,7 @@ import numpy as np
 
 img = cv2.imread('naruto.jpg', 1)
 cv2.imshow('src', img)
+
 imgInformation = img.shape  
 height = imgInformation[0]  
 width = imgInformation[1]  
