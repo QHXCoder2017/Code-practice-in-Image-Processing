@@ -4,9 +4,9 @@ import cv2
 img = cv2.imread('naruto.jpg', 1)
 cv2.imshow('src', img)
 
-imgInformation = img.shape  # 获取图片的信息
-height = imgInformation[0]  # 图片的高(矩阵的行)
-width = imgInformation[1]  # 图片的宽(矩阵的列)
+imgInformation = img.shape  
+height = imgInformation[0]  
+width = imgInformation[1]  
 
 for m in range(100, 300):  # 遍历马赛克矩形区域内的像素点
     for n in range(100, 200):
