@@ -1,4 +1,4 @@
-# Code-practice-in-Image-Processing
+# Code Practice in Image Processing
 source code implementation of common methods
 # Requirements
 python 3.5
