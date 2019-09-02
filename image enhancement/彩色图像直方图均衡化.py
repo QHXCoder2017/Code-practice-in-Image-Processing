@@ -54,8 +54,8 @@ for i in range(0, height):
     for j in range(0, width):
         (b, g, r) = img[i, j]  # 获取当前b,g,r
         b = map_b[b]  # 将蓝色通道映射表中的值覆盖原来蓝色通道的值
-        g = map_b[g]
-        r = map_b[r]
+        g = map_g[g]
+        r = map_r[r]
         dst[i, j] = (b, g, r)  # 将更新过后的b,g,r的值赋给目标图像
 		
 cv2.imshow('dst', dst)
